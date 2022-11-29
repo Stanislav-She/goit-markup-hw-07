@@ -1,0 +1,40 @@
+.basic {
+  background: var(--brand-color-three);
+}
+
+.basic__item {
+  display: flex;
+  justify-content: center;
+  background: var(--brand-color-three);
+  margin-bottom: 50px;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.basic__button {
+  padding: 6px 22px;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--brand-color-five);
+  transition: all var(--transition);
+}
+
+.basic__button--current {
+  box-shadow: var(--color-portfolio);
+  background-color: var(--brand-color);
+  color: var(--brand-color-three);
+  box-shadow: var(--btn-shadow-portfolio);
+  transition: all var(--transition);
+}
+
+.basic__list :active,
+.basic__list :hover,
+.basic__list :focus {
+  background: var(--brand-color);
+  box-shadow: var(--color-portfolio);
+  border-radius: 4px;
+  color: var(--brand-color-three);
+  box-shadow: var(--btn-shadow-portfolio);
+}

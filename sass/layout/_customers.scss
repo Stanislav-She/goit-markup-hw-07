@@ -1,0 +1,43 @@
+.customers__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.customers__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.customers__company {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  color: var(--brand-color-nine);
+  outline: transparent;
+  transition: color var(--transition);
+
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+  }
+}
+
+.customers__icon {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+  align-items: center;
+}
